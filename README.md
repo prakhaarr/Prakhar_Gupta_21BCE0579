@@ -1,6 +1,8 @@
 # 🏏 21BCE0579 - Hitwicket: A Strategic Chess-like Game
 
-Welcome to **Hitwicket**, a dynamic and strategic chess-like game designed to test your wits and strategic thinking. Developed as part of the 21BCE0579 assignment, this game combines real-time multiplayer gameplay with a powerful WebSocket-powered client-server architecture.
+![Game Board](/screenshot/Screenshot%202024-08-27%20at%2003.36.52.jpeg)
+
+Welcome to **my assignment**, where I create dynamic and strategic chess-like game to test your wits and strategic thinking. Developed as part of the 21BCE0579 Hitwicket assignment, this game combines real-time multiplayer gameplay with a powerful WebSocket-powered client-server architecture.
 
 ## 🚀 Project Overview
 
