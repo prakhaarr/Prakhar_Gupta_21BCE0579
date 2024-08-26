@@ -48,3 +48,18 @@ This project features a robust client-server architecture:
 ```bash
 git clone https://github.com/prakhaarr/Prakhar_Gupta_21BCE0579.git
 cd Prakhar_Gupta_21BCE0579
+
+### **2. Set Up the Python Environment**
+bash
+Copy code
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
