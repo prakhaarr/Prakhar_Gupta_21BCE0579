@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21BCE0579 - Hitwicket</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <h1>21BCE0579 Hitwicket Assignment</h1>
+    <h2>Current Player: <span id="current-player">A</span></h2>
+    <div id="game-container">
+        <div id="controls-container">
+            <div id="controls">
+                <p>Selected: <span id="selected-piece">None</span></p>
+                <div id="direction-buttons">
+                    <button onclick="selectMove('0,-1', this)">L</button>
+                    <button onclick="selectMove('0,1', this)">R</button>
+                    <button onclick="selectMove('-1,0', this)">F</button>
+                    <button onclick="selectMove('1,0', this)">B</button>
+                    <button onclick="selectMove('-2,-2', this)">FL</button>
+                    <button onclick="selectMove('-2,2', this)">FR</button>
+                    <button onclick="selectMove('2,-2', this)">BL</button>
+                    <button onclick="selectMove('2,2', this)">BR</button>
+                </div>
+                <button id="submit-move" onclick="submitMove()">Submit Move</button>
+            </div>
+        </div>
+        <div id="board-container">
+            <div id="board"></div>
+        </div>
+        <div id="move-history-container">
+            <h3>Move History</h3>
+            <ul id="move-history"></ul>
+        </div>
+    </div>
+    <div id="piece-movement-guide">
+        <h3>Piece Movement Guide</h3>
+        <ul>
+            <li>Pawn (P): Moves 1 step in any direction (⬆️⬇️⬅️➡️)</li>
+            <li>Hero1 (H1): Moves 2 steps in any direction (⬆️⬇️⬅️➡️)</li>
+            <li>Hero2 (H2): Moves 2 steps diagonally (↖️↗️↙️↘️)</li>
+            <li>Hero3 (H3): Moves 2 steps in one direction, then 1 step perpendicular (All directions)
+            </li>
+        </ul>
+    </div>
+    <div id="winner-announcement" style="display: none;">
+        <h2 id="winner-message"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
