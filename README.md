@@ -50,7 +50,7 @@ git clone https://github.com/prakhaarr/Prakhar_Gupta_21BCE0579.git
 cd Prakhar_Gupta_21BCE0579
 
 ### **2. Set Up the Python Environment**
-bash
+```bash
 Copy code
 # Create a virtual environment
 python -m venv venv
