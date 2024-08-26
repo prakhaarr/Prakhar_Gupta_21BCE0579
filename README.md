@@ -75,7 +75,7 @@ Follow these steps to get the game up and running:
 - **Enhanced Visual Effects**: Further improve the UI with animations and visual effects.
 - **Leaderboard**: Add a leaderboard to track player rankings.
 
-## 📫 Contact Us
+## 📫 Contact Me
 
 For any queries, feedback, or contributions, feel free to reach out:
 
