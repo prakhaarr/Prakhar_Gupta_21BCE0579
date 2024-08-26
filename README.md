@@ -6,10 +6,6 @@ Welcome to **Hitwicket**, a dynamic and strategic chess-like game designed to te
 
 **Hitwicket** is not just another board game; it's a modern twist on classic chess. The game features unique characters, each with its own movement abilities, adding layers of strategy and excitement. Whether you're playing as a pawn or a hero, every move matters.
 
-### 👥 Team Members:
-- **Prakhar Gupta** - Lead Developer & API Integration Specialist
-- **Omkar Gupta** - Game Logic Developer & Model Integrator
-
 ## 🛠️ Technologies Used
 
 - **Programming Language**: Python 🐍
