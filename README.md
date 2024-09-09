@@ -57,6 +57,9 @@ Follow these steps to get the game up and running:
     ```bash
     cd server
     python main.py
+
+    cd client
+    python -m http.server 8000
     ```
 
 5. **Open the Game in a Browser**:
